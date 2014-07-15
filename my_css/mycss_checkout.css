@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color:#e5e5e5;
+	margin:0px;
+	padding:0px;
+}
+td
+{
+	text-align:center;
+	color:#333;
+	vertical-align:middle;
+	
+}
+
+div:focus, input:focus, button:focus{
+    outline: none;
+}
+
+
+
+
+
+
+#main_page
+{
+	min-width:1000px;
+}
+
+#main_page_left
+{
+	opacity:0.9;
+	float:left;
+	/*height:472px;*/
+	width:200px;
+	background-color:rgb(241, 241, 241);
+	position:absolute;	
+	box-shadow: 0px 1px 2px #8D9097;
+}
+
+
+
+
+#main_page_right
+{
+	padding-top:20px;
+}
+.single_book_session
+{
+	margin-top:30px;
+	/*margin-left:250px;*/
+	background-color:#e5e5e5;
+	height:350px;
+}
+.book_session_intro
+{
+	margin-left:250px;
+	font-size:30px;
+	color:#525252;
+}
+.book_item
+{
+	float:right;
+	margin:15px 5px 15px 5px;
+	height:230px;
+	width:130px;
+	background-color:#FFF;
+	overflow:hidden;
+}
+.book_item_for_search
+{
+	float:left;
+	margin:15px 5px 15px 5px;
+	height:230px;
+	width:130px;
+	background-color:#FFF;
+	overflow:hidden;
+}
+
+.book_name_link
+{
+	
+	font-size:14px;
+	color:#333;
+	text-decoration:none;
+	font-family: "Roboto",Arial,sans-serif;
+	text-shadow: 0 1px 1px #C9BDBD;
+}
+.book_name_link:hover
+{
+	font-size:14px;
+	color:#333;
+	text-decoration:underline;
+	font-family: "Roboto",Arial,sans-serif;
+	text-shadow: 0 1px 1px #C9BDBD;
+}
+.book_item_intro
+{
+	position:relative;
+	line-height:1.4;
+}
+.book_name_end
+{
+	position:absolute;
+	left: 80px;
+	height: 19px;
+	width: 50px;
+	background: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1));
+	right: 0;
+	top: 0;	
+}
+.author_name_link
+{
+	font-size: 12px;
+	color: #CCC;
+	text-decoration: none;
+	font-family: "Roboto",Arial,sans-serif;
+	text-shadow: 0 1px 1px #EEECEC;
+}
+.author_name_link:hover
+{
+	font-size:12px;
+	color:#CCC;
+	text-decoration:underline;
+	font-family: "Roboto",Arial,sans-serif;
+	text-shadow: 0 1px 1px #EEECEC;
+}
+
+
+.search_result
+{
+	margin-left:250px;
+	height:280px;
+}
+
+#footer
+{
+	min-width:750px;
+	margin-left:250px;
+	margin-right:50px;
+	height:100px;
+}
+#footer_link
+{
+	padding-left:100px;
+}
+.footer_linker_item
+{
+	margin-left:5px;
+	font-size:12px;
+	color:#8d8d8d;
+	text-decoration:none;
+}
+.footer_linker_item:hover
+{
+	font-size:12px;
+	color:#8d8d8d;
+	text-decoration:underline;
+}
+
+
+#temp
+{
+	margin-left:250px;
+	margin-right:50px;
+	width:auto;	
+}
+.check_out_book_item
+{
+	margin-top:10px;
+	height:80px;
+}
+.check_out_book_img
+{
+	margin-top:10px;
+	margin-left:20px;
+}
+.check_out_book_name
+{
+	position:relative;
+	width:200px;
+	margin-left:20px;
+	font-size:20px;
+	font-family: "Segoe UI Light";
+	font-weight:normal;
+}
+.check_out_book_name_link
+{
+	color:#333;
+	text-decoration:none;
+}
+.check_out_book_name_link:hover
+{
+	color:#333;
+	text-decoration:underline;
+}
+.checkout_book_name_end
+{
+	position:absolute;
+	left: 130px;
+	height: 24px;
+	width: 50px;
+	background: linear-gradient(to right,rgba(255,255,255,0),rgba(229,229,229,1));
+	right: 0;
+	top: 0;	
+}
+.check_out_book_num
+{
+	margin-left:240px;
+	font-size:20px;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial","sans-serif";
+}
+.check_out_book_price
+{
+	margin-left:50px;
+	font-size:20px;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial","sans-serif";
+}
+#shipping_address
+{
+	
+	
+}
+.check_out_title
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:28px;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial","sans-serif";
+}
+.checkout_edit_btn
+{
+	float:right;
+	margin-right:40px;
+	width:120px;
+	height:36px;
+	background-color:#658092;
+	border:none;
+	border-radius:2px;
+	color:#FFF;
+	font-size:16px;
+}
+.checkout_edit_btn:hover
+{
+	width:120px;
+	height:36px;
+	background-color:#6f95ae;
+	border:none;
+	border-radius:2px;
+	color:#FFF;
+	box-shadow:0px 2px #506c72;
+	font-size:16px;
+}
+.info_prompt
+{
+	padding-left:20px;
+	
+}
+.input_item
+{
+	height:30px;
+	padding-left:5px;
+	padding-right:5px;
+	font: 16px arial,sans-serif;
+}
+.address_select
+{
+	margin-left:20px;
+	height:30px;
+	width:152px;
+	font: 16px arial,sans-serif;
+}
+.check_out_item
+{
+	width:500px;
+	background-color:transparent;
+	border:none;
+	font: 16px arial,sans-serif;
+}
+
+#check_out_delivery_form
+{
+	margin-left:20px;
+	font-size:16px;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial","sans-serif";
+}
+	
+	
+#check_out_address
+{
+	height:280px;
+}
+
+#check_out_address_confirm
+{
+	margin-top:10px;
+	margin-left:20px;
+}
+#zipcode
+{
+	width:152px;
+}
+#first_name
+{
+	width:240px;
+}
+#last_name
+{
+	width:240px;
+}
+#address
+{
+	width:500px;
+}
+
+#check_out_payment
+{
+	height:200px;
+}
+
+#expiration_month
+{
+	width:50px;
+}
+#expiration_year
+{
+	width:50px;
+}
+#security_code
+{
+	width:100px;
+}
+#check_out_payment_confirm
+{
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#check_out_notificatons
+{
+	color: #756F6F;
+	margin-top: 20px;
+	font-size: 10px;
+	margin-left: 20px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+#check_out_result
+{
+	font-size:18px;
+}
+
+#check_out_closs_btn
+{
+	width:80px;
+	height:30px;
+	background-color:#333;
+	border:none;
+	border-radius:2px;
+	color:#FFF;
+	font-size:16px;
+}
+#check_out_closs_btn:hover
+{
+	width:80px;
+	height:30px;
+	background-color:#999;
+	border:none;
+	border-radius:2px;
+	color:#FFF;
+	font-size:16px;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

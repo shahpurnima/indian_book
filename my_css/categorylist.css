@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+#category_list
+{
+    float: left;
+    width: 200px;
+    opacity:0.9;
+    background-color:rgb(241, 241, 241);
+    box-shadow: 0px 1px 2px #8D9097;
+}
+.category_item
+{
+	cursor:pointer;
+	height:48px;
+}
+.categroy_item_left
+{
+	float:left;
+	height:48px;
+	width:48px;
+}
+.category_item_right
+{
+	float:left;
+	height:48px;
+	padding-left:10px;
+	padding-top:10px;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+.category_item_content
+{
+}
+
+.category_item_link
+{
+	background-color:rgb(241, 241, 241);
+	margin-left:48px;
+	padding-left:10px;
+	padding-top:2px;
+	cursor:pointer;	
+}
+
+.category_item_link_a
+{
+	font-size:14px;
+	color:#A7762C;
+	text-shadow: 0.1px 0.8px 0.9px #A7762c;
+	text-decoration:none;
+}
+.category_item_link_a:hover
+{
+	font-size:14px;
+	color:#A7762C;
+	text-shadow: 0.1px 0.8px 0.9px #A7762c;
+	text-decoration:underline;
+}
+
+
+#category_item_arts
+{
+	background-color:#f1f1f1;
+}
+#category_item_arts:hover
+{
+	background-color:#b3c833;
+}
+#category_item_children
+{
+	background-color:#f1f1f1;
+}
+#category_item_children:hover
+{
+	background-color:#ce5043;
+}
+#category_item_literature
+{
+	background-color:#f1f1f1;
+}
+#category_item_literature:hover
+{
+	background-color:#fb8521;
+}
+#category_item_social_science
+{
+	background-color:#f1f1f1;
+}
+#category_item_social_science:hover
+{
+	background-color:#1aa1e1;
+}
+#category_item_health
+{
+	background-color:#f1f1f1;
+}
+#category_item_health:hover
+{
+	background-color:#5e5ca6;
+}
+#category_item_technology
+{
+	background-color:#f1f1f1;
+}
+#category_item_technology:hover
+{
+	background-color:#658092;
+}

@@ -1,0 +1,132 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+
+#header_wrapper
+{
+	top:0;
+	width:100%;
+	background: rgba(255, 255, 255, 0.9);
+	height: 62px;
+	line-height:62px;
+	position: fixed;
+	z-index: 998;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+}
+
+#header
+{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo
+{
+	float:left;
+	margin-top:5px;
+}
+
+#signin_button_div
+{
+	float:right;
+}
+
+#my_titlebar_signin
+{
+	height:30px;
+	width:71px;
+	margin-top:15px;
+	padding:0;
+	border:0;
+	background-image:url(../images/sign_in.png);
+}
+
+
+#signupbody_wrap
+{
+	margin-top: 60px;
+	background-color: #222222;
+	height: 400px;
+}
+
+#signupbody
+{
+	 width:900px;
+	 margin-left:auto;
+	 margin-right:auto;
+}
+
+#intro
+{
+	margin-top:100px;
+	float:left;
+}
+
+#intro_title
+{
+	color:#ffffff;
+	font-size:48px;
+	font-weight:bold;
+}
+#intro_detail
+{
+	margin-top:30px;
+	width:500px;
+	font-size:16px;
+	color:#4583ED;
+	font-weight:bold;
+	line-height:1.4em;
+}
+
+#form_div
+{
+	margin-top:50px;
+	float:right;
+}
+
+.input_text
+{
+	border: 1px #4660C7 solid;
+	margin: 10px 0px 10px 0px;
+	padding:10px 10px 10px 10px;
+	font-size: 20px;
+	height: 40px;
+	width: 320px;
+}
+
+#submit_btn
+{
+	background-color: #4EAF4A;
+	color: #FBFAFC;
+	height: 40px;
+	border: 1px #444444 solid;
+	padding: 0;
+	width: 320px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

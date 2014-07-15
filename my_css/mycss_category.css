@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color:#e5e5e5;
+	margin:0px;
+	padding:0px;
+}
+td
+{
+	text-align:center;
+	color:#333;
+	vertical-align:middle;
+	
+}
+
+div:focus, input:focus{
+    outline: none;
+}
+
+
+#main_page
+{
+	min-width:1000px;
+}
+
+#main_page_left
+{
+	opacity:0.9;
+	float:left;
+	/*height:472px;*/
+	width:200px;
+	background-color:rgb(241, 241, 241);
+	position:absolute;	
+	box-shadow: 0px 1px 2px #8D9097;
+}
+
+
+#main_page_right
+{
+	padding-top:20px;
+}
+.single_book_session
+{
+	margin-top:30px;
+	/*margin-left:250px;*/
+	background-color:#e5e5e5;
+	height:350px;
+}
+.book_session_intro
+{
+	margin-left:250px;
+	font-size:30px;
+	color:#525252;
+}
+.book_item
+{
+	float:right;
+	margin:15px 5px 15px 5px;
+	height:230px;
+	width:130px;
+	background-color:#FFF;
+	overflow:hidden;
+}
+.book_item_for_search
+{
+	float:left;
+	margin:15px 5px 15px 5px;
+	height:230px;
+	width:130px;
+	background-color:#FFF;
+	overflow:hidden;
+}
+
+.book_name_link
+{
+	
+	font-size:14px;
+	color:#333;
+	text-decoration:none;
+	font-family: "Roboto",Arial,sans-serif;
+	text-shadow: 0 1px 1px #C9BDBD;
+}
+.book_name_link:hover
+{
+	font-size:14px;
+	color:#333;
+	text-decoration:underline;
+	font-family: "Roboto",Arial,sans-serif;
+	text-shadow: 0 1px 1px #C9BDBD;
+}
+.book_item_intro
+{
+	position:relative;
+	line-height:1.4;
+}
+.book_name_end
+{
+	position:absolute;
+	left: 80px;
+	height: 19px;
+	width: 50px;
+	background: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1));
+	right: 0;
+	top: 0;	
+}
+.author_name_link
+{
+	font-size: 12px;
+	color: #CCC;
+	text-decoration: none;
+	font-family: "Roboto",Arial,sans-serif;
+	text-shadow: 0 1px 1px #EEECEC;
+}
+.author_name_link:hover
+{
+	font-size:12px;
+	color:#CCC;
+	text-decoration:underline;
+	font-family: "Roboto",Arial,sans-serif;
+	text-shadow: 0 1px 1px #EEECEC;
+}
+
+
+.search_result
+{
+	margin-left:250px;
+	height:280px;
+}
+
+#footer
+{
+	min-width:750px;
+	margin-left:250px;
+	margin-right:50px;
+	height:100px;
+}
+#footer_link
+{
+	padding-left:100px;
+}
+.footer_linker_item
+{
+	margin-left:5px;
+	font-size:12px;
+	color:#8d8d8d;
+	text-decoration:none;
+}
+.footer_linker_item:hover
+{
+	font-size:12px;
+	color:#8d8d8d;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

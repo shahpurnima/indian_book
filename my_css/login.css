@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login_input
+{
+	width: 240px;
+	height: 30px;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.login_label
+{
+	margin-top:4px;
+	font-size:11px;
+	font-weight:normal;
+}
+.login_link
+{
+	color:#289BF5;
+	text-decoration:none;
+}
+.login_link:hover
+{
+	color:#289BF5;
+	text-decoration:underline;
+}
+#login_btn
+{
+	height: 30px;
+	width: 80px;
+	font-size: 16px;
+	background: #3C676D;
+	border: none;
+	border-radius: 2px;
+	color: #FAFCFD;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#myModalLabel
+{
+	color:#eee;
+}
+
+#login_close_btn
+{
+	color:#FFF;
+	opacity:1.0;
+}
+#login_close_btn:hover
+{
+	color:#FFF;
+	opacity:0.2;
+}
+.login_right_btn
+{
+	height: 40px;
+	width: 200px;
+}
+
+#facebook_btn
+{
+	border:none;
+	background-image:url(../images/facebook.jpg);
+}
+	
+#login_right
+{
+	float:left;
+	margin-left:40px;
+	font-size:16px;
+}
+
