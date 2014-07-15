@@ -1,0 +1,2 @@
+book-cover-small:  130 * 190
+book-cover-large:  200 * 310
