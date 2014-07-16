@@ -1,3 +1,6 @@
+    <link href="my_css/categorybar.css" rel="stylesheet" type="text/css">
+<link href="my_css/categorylist.css" rel="stylesheet" type="text/css">
+
     <div id="category_list">
       <div id="category_item_arts" class="category_item">
         <div class="categroy_item_left" style="background-color:#b3c833"></div>
@@ -69,3 +72,4 @@
         <div class="category_item_link"><a class="category_item_link_a" >Programming</a></div>
       </div>
     </div>
+  

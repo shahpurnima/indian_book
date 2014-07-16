@@ -27,16 +27,14 @@ var js_checkcode = "checkcode";
 <body>
 <?php include("include/titlebar.php"); ?>
 <?php include("include/login.php"); ?>
+ <?php include("include/categorybar.php"); ?>  
 
-<?php include("include/categorybar.php"); ?>
-    
-  
-
-<div id="main_page">
+ <!-- <div id="main_page">
   <div id="main_page_right">
     <div id="content_books">
-      <div class="single_book_session">
-        <div class="book_session_intro"> Recommended for You! </div>
+      <div class="single_book_session"> -->
+           
+     <!--   <div class="book_session_intro"> Recommended for You! </div>
         <div id="recommand_books">
           <div class="book_item"> <a href="Ender_s_Game.php"><img src="images/Ender's Game.jpg"/></a>
             <div class="book_item_intro"> <a class="book_name_link" href="#"> Ender's Game <span class="book_name_end"></span> </a><br/>
@@ -59,8 +57,8 @@ var js_checkcode = "checkcode";
               <a class="author_name_link" href="#">Orson Scott Card</a> </div>
           </div>
         </div>
-      </div>
-      <div class="single_book_session">
+      </div>-->
+   <!--   <div class="single_book_session">
         <div class="book_session_intro"> New DCs! </div>
         <div id="dc_books">
           <div id="dc_books_content" style="margin-left:520px">
@@ -78,8 +76,8 @@ var js_checkcode = "checkcode";
             </div>
           </div>
         </div>
-      </div>
-      <div class="single_book_session">
+      </div> -->
+ <!--     <div class="single_book_session">
         <div class="book_session_intro"> New Fiction! </div>
         <div id="new_fiction_books">
           <div class="book_item"> <a href="#"><img src="images/Diary of a Wimpy Kid.jpg"/></a>
@@ -201,12 +199,53 @@ var js_checkcode = "checkcode";
     </div>
   </div>
 </div>
+-->   
+    <div id="main_page_right">
+    <div id="content_books">
+      <div class="single_book_session">
+          <div id="myCarousel" class="carousel slide">
+   <!-- Carousel indicators -->
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+   </ol>   
+   <!-- Carousel items -->
+   <div class="carousel-inner">
+      <div class="item active">
+         <img src="images/background.jpg" alt="First slide" ALIGN=RIGHT>
+      </div>
+      <div class="item">
+         <img src="images/background2.jpg" alt="Second slide" ALIGN=RIGHT>
+      </div>
+      <div class="item">
+         <img src="images/background3.jpg" alt="Third slide" ALIGN=RIGHT>
+      </div>
+       
+   </div>
+   <!-- Carousel nav -->
+   <a class="carousel-control left" href="#myCarousel" 
+      data-slide="prev">&lsaquo;</a>
+   <a class="carousel-control right" href="#myCarousel" 
+      data-slide="next">&rsaquo;</a>
+</div> 
+          
+    </div>
+   <!--     <div id="footer">
+  <div style="height:50px">
+    <hr style="width:600px; margin-left:75px">
+  </div>
+  <div id="footer_link"> <span style="font-size:12px; color:#555;">©2014 Scatter Inc.</span> <a class="footer_linker_item" href="#">Site Terms of Service</a> <a class="footer_linker_item" href="#">Privacy Policy</a> <a class="footer_linker_item" href="#">Developers</a> <a class="footer_linker_item" href="#">About Us</a> </div> -->
+</div>
+        </div>
+        </div>
     
+    <!-- new -->
 <div id="footer">
   <div style="height:50px">
-    <hr style="width:600px; margin-left:50px">
+    <hr style="width:600px; margin-left:75px">
   </div>
-  <div id="footer_link"> <span style="font-size:12px; color:#555;">©2013 Scatter Inc.</span> <a class="footer_linker_item" href="#">Site Terms of Service</a> <a class="footer_linker_item" href="#">Privacy Policy</a> <a class="footer_linker_item" href="#">Developers</a> <a class="footer_linker_item" href="#">About Us</a> </div>
+  <div id="footer_link"> <span style="font-size:12px; color:#555;">©2014 Scatter Inc.</span> <a class="footer_linker_item" href="#">Site Terms of Service</a> <a class="footer_linker_item" href="#">Privacy Policy</a> <a class="footer_linker_item" href="#">Developers</a> <a class="footer_linker_item" href="#">About Us</a> </div>
 </div>
 <script type="text/javascript" src="lib/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="lib/js/stickUp.min.js"></script>

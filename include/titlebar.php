@@ -1,5 +1,9 @@
 <div id="my_titlebar">
-    <div id="my_titlebar_left" > <img style="margin-left:20px; margin-right:20px" src="images/title.png"/> </div>
+    <div id="my_titlebar_left" >
+        <img style="margin-left:10px; margin-right:10px" height="75px" src="images/images.jpg"/> 
+        <img style="margin-left:20px; margin-right:20px" src="images/title.png"/> 
+    
+    </div>
     <div id="my_titlebar_right">
         <?php if(!empty($_SESSION['user'])) { ?>
             <img id="headimg" onMouseOver="showArrow()" onClick="goto_mypage()"  src="images/head.jpg" />
@@ -20,6 +24,7 @@
                     <input id="my_titlebar_searchbutton" type="submit" value="">
                 </div>
             </form>
+            
         </div>
         <div id="my_titlebar_middle_down"></div>
     </div>

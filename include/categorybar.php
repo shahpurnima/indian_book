@@ -2,6 +2,7 @@
     <div style="height: 48px; min-width: 440px">
         <div id="category_title_left">
             <div>Categories</div>
+           
         </div>
         <div style="float:left">
             <div style="height:15px"></div>
