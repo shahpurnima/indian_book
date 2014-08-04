@@ -61,8 +61,8 @@
 
 #facebook_btn
 {
-	border:none;
-	background-image:url(../images/facebook.jpg);
+	border:medium none;
+	background-image:url('../images/facebook.jpg');
 }
 	
 #login_right
@@ -72,3 +72,7 @@
 	font-size:16px;
 }
 
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}

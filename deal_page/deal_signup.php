@@ -3,18 +3,18 @@ include("../db/con_to_db.php");
 if (isset($_POST['Submit']) and $_POST['Submit'] == "Sign Up")
 {
 	$username = $_POST['username'];
-	$realname = $_POST['realname'];
+	//$realname = $_POST['realname'];
 	$password = $_POST['password'];
-	$gender   = $_POST['gender'];
-	$phonenum = $_POST['phonenum'];
+	//$gender   = $_POST['gender'];
+	//$phonenum = $_POST['phonenum'];
 	$email    = $_POST['email'];
-	$qqnum    = $_POST['qqnum'];
-	$address  = $_POST['address'];
-	$headpic  = $_POST['headpic']; 
+	//$qqnum    = $_POST['qqnum'];
+//	$address  = $_POST['address'];
+//	$headpic  = $_POST['headpic']; 
 
 	if ($_POST['password'] == $_POST['password_confirm'])
 	{
-		$insert = mysql_query("insert into tb_user(username, realname, password, gender, phonenum, email, qqnum,address, headpic) values('$username', '$realname', '$password', '$gender', '$phonenum', '$email', '$qqnum', '$address','$headpic')", $conn);
+		$insert = mysql_query("insert into login_details(UserName, Password, Email) values('$username', '$password','$email')", $conn);
 		if($insert)
 		{
 			session_start();

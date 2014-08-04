@@ -16,10 +16,11 @@ session_start();
     <script src=lib/js/html5shiv.js></script>
     <script src="lib/js/respond.min.js"></script>
     <![endif]-->
+    
 </head>
 
 <body>
-<?php include("include/titlebar.php"); ?>
+
 
 
 <div id="category_title">
@@ -30,11 +31,14 @@ session_start();
   <div style="float:left">
     <div style="height:15px"></div>
     <span class="category_title_navi" style="margin-left:15px">
-     <a href="index.php" class="category_title_link">Home</a> 
+    
     </span> </div>
   <div style="float:left">
+    <a href="index.php" class="category_title_link" >Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#myspace_upload"> Upload</a>         
     <button id="myspace_orders_btn"> Orders </button>
     <button id="myspace_setting_btn"> Setting </button>
+        <button id="myspace_upload_btn"> Upload </button>  
   </div>
   <button id="shopping_cart_btn" onclick="goto_cart()"> Cart </button>
   </div>
@@ -44,8 +48,12 @@ session_start();
         	
         </div>--> 
 </div>
+    
+    
 <div id="main_page">
-  <div id="main_page_right">
+      
+ <div id="main_page_right">
+      
     <div id="myspace_orders" >
       <div style="height:40px; width:200px"></div>
       <div id="myspace_mybooks">
@@ -83,12 +91,13 @@ session_start();
         </div>
       </div>
     </div>
+
     <div id="myspace_setting" >
       <div style="height:40px; width:200px"></div>
       <div class="myspace_session_title">Your Basic Info</div>
       <div id="myspace_basic_info">
         <label class="myspace_label">Current Account Picture: </label>
-        <span style="display: inline-block; position: relative;"> <img id="myspace_img" style="width:100px" src="images/myspace_head.jpg"> <a id="edit_head_link" href="#">Edit</a> </span> <br>
+        <span style="display: inline-block; position: relative;"> <img id="myspace_img" style="width:100px" src="images/myspace_head.jpg">         <a id="edit_head_link" href="#">Edit</a> </span> <br>
         <label class="myspace_label">User Name: </label>
         <input class="myspace_input_text" type="text" value="Call Of Duty">
         <br>
@@ -128,6 +137,10 @@ session_start();
         <br>
       </div>
     </div>
+    
+       <a name="myspace_upload"><div><span style="margin-left:40px;font-weight:bold">Internship opportunity </span><br>
+<div style="position:relative; left:70px;">
+   </div>
     <div id="footer">
       <div style="height:50px">
         <hr style="width:600px; margin-left:50px">
@@ -136,6 +149,7 @@ session_start();
     </div>
   </div>
 </div>
+    
 <script type="text/javascript" src="lib/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="lib/js/stickUp.min.js"></script>
 <script type="text/javascript" type="text/javascript">

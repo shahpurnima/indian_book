@@ -1,9 +1,9 @@
 <?php
 
-	$conn = mysql_connect("database url","username","password");
+	$conn = mysql_connect("localhost","root","root");
 	if ($conn)
 	{
-		mysql_select_db("db", $conn);
+		mysql_select_db("indianbooks", $conn);
 	}
 	else
 	{

@@ -7,8 +7,10 @@ include("../db/con_to_db.php");
 if (isset($_POST['username']) and isset($_POST['password']))
 {
 	$username = $_POST['username'];
+    //$username = "purnima";
 	$password = $_POST['password'];
-	$select_user = mysql_query("select * from tb_user where username='" . $_POST['username']."' and password ='".$_POST['password']."'", $conn);
+	//$password = "purnima";
+    $select_user = mysql_query("select * from login_details where UserName='" . $_POST['username']."' and Password ='".$_POST['password']."'", $conn);
 	if (mysql_num_rows($select_user) == 1)
 	{
 		$array = mysql_fetch_array($select_user);
